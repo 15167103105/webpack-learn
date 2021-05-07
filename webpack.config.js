@@ -18,6 +18,11 @@ module.exports = {
     proxy: {
       '/react/api': 'http://www.dell-lee.com',
     },
+    proxy: {
+      target: 'http://www.dell-lee.com',
+      // 如果target是https时，secure需配置为false
+      secure: true,
+    },
   },
   module: {
     rules: [

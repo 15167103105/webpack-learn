@@ -25,6 +25,6 @@
     "build": "webpack",
     "start": "webpack serve --open"
   },
-  "author": "",
+  "author": "htt",
   "license": "ISC"
 }
